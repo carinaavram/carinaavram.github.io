@@ -324,8 +324,27 @@ button a{
     height: 60px;
     width: 60px;
 }
-
-@media (max-width: 480px) {
+@media (max-width:265px){
+    .wrap .static-txt {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .wrap .dynamic-txt {
+        margin-left: 2px;
+        line-height: 25px;
+        height: 25px;
+    }
+    .dynamic-txt li{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    @keyframes slide {
+        100%{
+            top: -100px;
+        }
+    }
+}
+@media (min-width: 264px) and (max-width: 480px) {
     .container {
         padding: 10px 5%;
     }
