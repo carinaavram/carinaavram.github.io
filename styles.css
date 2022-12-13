@@ -325,7 +325,7 @@ button a{
     width: 60px;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
     .container {
         padding: 10px 5%;
     }
@@ -339,32 +339,32 @@ button a{
     }
     .resume {
         font-size: 10px;
-        line-height:30px;
+        line-height: 30px;
     }
     nav {
         justify-content: space-evenly;
     }
     nav ul li{
-        margin: 0;
+        margin: 3px;
     }
     nav ul li a{
-        font-size: 15px;
+        font-size: 18px;
     }
     /*Welcome Section*/
     .wrap {
         justify-content: center;
     }
     .wrap .static-txt {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 300;
     }
     .wrap .dynamic-txt {
-        margin-left: 15px;
+        margin-left: 10px;
         line-height: 30px;
         height: 30px;
     }
     .dynamic-txt li{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 400;
     }
     @keyframes slide {
