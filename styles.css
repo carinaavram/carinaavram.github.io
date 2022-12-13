@@ -372,7 +372,7 @@ button a{
             top: -120px;
         }
     }
-    /*Anout Section*/
+    /*About Section*/
     .ab2-title{
         font-size: 35px;
         font-weight: 500;
@@ -390,7 +390,7 @@ button a{
     /*Education&Skills Section*/
     #education {
         font-size: 12px;
-        height: 140vh;
+        height: 120vh;
     }
     #education h3{
         font-size: 20px;
