@@ -206,7 +206,7 @@ nav ul li a:hover::after {
 .left span {
     color: #fff;
 }
-#education li {
+#education li :not(.bullets){
     list-style: none;
 }
 #education p {
@@ -342,6 +342,9 @@ button a{
         100%{
             top: -100px;
         }
+    }
+    #education p {
+        padding: 1px;
     }
 }
 @media (min-width: 264px) and (max-width: 480px) {
