@@ -324,7 +324,7 @@ button a{
     height: 60px;
     width: 60px;
 }
-@media (max-width:265px){
+@media (max-width:265px) and (orientation:portrait){
     .wrap .static-txt {
         font-size: 15px;
         font-weight: 300;
