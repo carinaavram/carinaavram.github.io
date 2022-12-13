@@ -343,6 +343,9 @@ button a{
             top: -100px;
         }
     }
+    #education {
+        height: 120vh;
+    }
 }
 @media (min-width: 264px) and (max-width: 480px) {
     .container {
