@@ -243,11 +243,18 @@ button a{
     background-color:  rgba(170,187,170, 0.2);
     border-radius: 10px;
 }
-.project img{
+.project img:not(.home-screen){
     height: 400px;
     width: 400px;
     object-fit: scale-down;
     opacity: 0.4;
+}
+.home-screen {
+    height: 350px;
+    width: 350px;
+    object-fit: scale-down;
+    opacity: 0.4;
+    margin: 0 25px;
 }
 .project img:hover{
     opacity: 1.0;
