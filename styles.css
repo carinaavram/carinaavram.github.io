@@ -245,14 +245,14 @@ button a {
 }
 .project {
   width: 620px;
-  height: auto;
+  height: max-content;
   margin: 10px;
   background-color: rgba(170, 187, 170, 0.2);
   border-radius: 10px;
   padding: 10px;
 }
 .project img {
-  height: auto;
+  height: max-content;
   width: 600px;
   object-fit: scale-down;
   opacity: 0.4;
