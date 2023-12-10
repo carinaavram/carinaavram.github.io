@@ -236,6 +236,12 @@ button a {
   font-weight: 400;
 }
 /*Portfolio Section*/
+#portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
 .project-title {
   text-align: center;
   color: #fff;
