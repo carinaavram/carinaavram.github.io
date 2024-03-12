@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Personal Website Portfolio</title>
+    <script src="mobile-menu.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="portfolio.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <button id="mobile-menu-btn">&#9776; Menu</button>
+            <img src="images&docs/ColorLogo-NOBACKGROUND.png" alt="Carina's logo" class="logo">
+            <a href="https://docs.google.com/document/d/e/2PACX-1vSXc8b5UJ2E6ZtX6wdM64uxGLe31KS3344jIHZmlPyLUE5yjMOg1brOKp_Sj_pepw/pub?embedded=true"
+                target="_blank" class="resume">RESUME</a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <main id="portfolio">
+            <h2 class="project-title">My Projects</h2>
+            <div class="container-projects">
+                <div class="project large">
+                    <video controls width="600" height="300">
+                        <source src="images&docs/Birthday-reminder-video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <dl>
+                        <dt><a href="https://birthday-reminder-1.vercel.app/" target="_blank">Birthday Reminder
+                                App</a></dt>
+                        <dd>A Birthday Reminder application built with Next.js, utilizing the power of server-side
+                            rendering
+                            and React. MongoDB is used as the NoSQL database for storing user and birthday data, and
+                            Mongoose is employed as the Object Data Modeling (ODM) library for MongoDB. The app also
+                            incorporates NextAuth for authentication, SendGrid for email notifications, and is deployed
+                            and
+                            hosted on Vercel.</dd>
+                    </dl>
+                </div>
+                <div class="project">
+                    <a href="https://meetup-nextjs-app-olive.vercel.app/" target="_blank"><img
+                            src="images&docs/react-meetups.png" alt="React Meetups App"></a>
+                    <dl>
+                        <dt><a href="https://meetup-nextjs-app-olive.vercel.app/" target="_blank">React Meetups
+                                App</a></dt>
+                        <dd>The React Meetups App showcases local meetups using React and Next.js. CSS Modules are
+                            employed
+                            for styling, providing scoped styling to the components. The app is deployed and hosted on
+                            Vercel, offering seamless accessibility to users.</dd>
+                    </dl>
+                </div>
+                <div class="project">
+                    <a href="https://github.com/carinaavram/todo-app-with-typescript" target="_blank"><img
+                            src="images&docs/todo-app.png" alt="Todo App"></a>
+                    <dl>
+                        <dt><a href="https://github.com/carinaavram/todo-app-with-typescript" target="_blank">Todo App
+                                with Typescript</a></dt>
+                        <dd>The Todo App with Typescript is a task management application developed with TypeScript and
+                            React. It provides an organized and efficient way to manage tasks, allowing users to add,
+                            update, and remove tasks effortlessly. CSS Modules are used for styling, ensuring
+                            component-specific styles. The project is version-controlled using Git and hosted on GitHub.
+                        </dd>
+                    </dl>
+                </div>
+                <div class="project large">
+                    <img src="images&docs/FinalProject-Avram.jpg" alt="Home screen of a phone">
+                    <dl>
+                        <dt>Home Screen of a Phone</dt>
+                        <dd>I crafted this captivating home screen of a phone, along with all 16 app icons, using Adobe
+                            Illustrator. The concept revolves around creating an intuitive user interface with modern
+                            aesthetics, making it visually appealing and user-friendly. Each app icon was meticulously
+                            designed to complement the overall theme, ensuring a seamless and delightful user
+                            experience.</dd>
+                    </dl>
+                </div>
+                <div class="project">
+                    <img src="images&docs/ColorLogo-C.jpg" alt="Carina's Personal Logo">
+                    <dl>
+                        <dt>Personal Logo</dt>
+                        <dd>This is my personal logo, designed and created using Adobe Photoshop. The logo reflects my
+                            identity and personal branding, with its unique color scheme and design elements.</dd>
+                    </dl>
+                </div>
+                <div class="project">
+                    <img src="images&docs/finaldesign.jpg" alt="Aki-To Logo">
+                    <dl>
+                        <dt>Aki-To Logo</dt>
+                        <dd>The Aki-To Logo was crafted in Adobe Photoshop, aiming to capture the essence of a brand or
+                            business. The logo design showcases a harmonious blend of creativity and professionalism,
+                            aligning perfectly with the brand's identity and vision.</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="button-container">
+                <a class="button" href="https://github.com/carinaavram" target="_blank">View All My Projects</a>
+            </div>
+        </main>
+
+        <footer>
+            <div id="contact">
+                <h2 class="title-contact">Social Media</h2>
+                <div class="social-icons">
+                    <ul>
+                        <li><a href="https://github.com/carinaavram" target="_blank">
+                                <i class="fa-brands fa-square-github"></i>GitHub
+                            </a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/carina-avram/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>LinkedIn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/carina.avram/" target="_blank">
+                                <i class="fa-brands fa-square-facebook"></i>Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/carinaavram" target="_blank">
+                                <i class="fa-brands fa-square-instagram"></i>Instagram
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:carinaavram97@gmail.com" target="_blank">
+                                <i class="fa-sharp fa-solid fa-envelope"></i>Email
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.google.com/document/d/e/2PACX-1vSXc8b5UJ2E6ZtX6wdM64uxGLe31KS3344jIHZmlPyLUE5yjMOg1brOKp_Sj_pepw/pub?embedded=true"
+                                target="_blank">
+                                <i class="fa-solid fa-file"></i>Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p>&copy; Copyright 2023, All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

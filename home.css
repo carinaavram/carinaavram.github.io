@@ -1,0 +1,108 @@
+#home {
+  height: 90vh;
+  margin-left: 120px;
+  background-color: rgb(191, 178, 163);
+  background-image: url(images&docs/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -10% 30%;
+}
+/*Welcome Text*/
+.wrap {
+  margin-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+.wrap .static-txt {
+  font-size: 60px;
+  font-weight: 400;
+  color: #fff;
+}
+.wrap .dynamic-txt {
+  margin-left: 15px;
+  line-height: 90px;
+  height: 90px;
+  overflow: hidden;
+}
+.dynamic-txt li {
+  list-style: none;
+  color: #ff004f;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+.dynamic-txt li {
+  position: relative;
+}
+.dynamic-txt li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(191, 178, 163);
+  border-left: 2px solid #ff004f;
+  animation: typing 3s steps(13) infinite;
+}
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #home {
+    background-position: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .wrap .static-txt {
+    font-size: 20px;
+  }
+
+  .wrap .dynamic-txt {
+    line-height: 30px;
+    height: 30px;
+  }
+
+  .dynamic-txt li {
+    font-size: 20px;
+  }
+  @keyframes slide {
+    100% {
+      top: -120px;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .wrap .static-txt {
+    font-size: 35px;
+  }
+
+  .wrap .dynamic-txt {
+    line-height: 45px;
+    height: 45px;
+  }
+
+  .dynamic-txt li {
+    font-size: 35px;
+  }
+  @keyframes slide {
+    100% {
+      top: -180px;
+    }
+  }
+}

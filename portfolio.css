@@ -1,0 +1,96 @@
+
+#portfolio {
+  margin-left: 120px;
+  background-color: rgb(191, 178, 163);
+}
+.project-title {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.container-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+  gap: 20px;
+  justify-content: center;
+  margin: 0 10px;
+  grid-auto-flow: dense;
+}
+
+.project {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.project.large {
+  height: auto;
+  grid-row: span 3; 
+}
+
+.project video,
+.project img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.project dt {
+  display: block;
+  margin-top: 10px;
+}
+.project dd {
+  font-size: 13px;
+  font-weight: 200;
+  opacity: 0.4;
+  text-align: left;
+}
+.project a {
+  color: #fff;
+}
+
+.button-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff004f;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: gray;
+}
+
+.button:active {
+  background-color: #cc003d;
+}
+
+@media only screen and (max-width: 768px) {
+  #portfolio {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .project-title {
+    font-size: 20px;
+  }
+  .button {
+    padding: 3px 5px;
+    font-size: 12px;
+  }
+  .project p {
+    font-size: 10px;
+  }
+}
